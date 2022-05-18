@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  background-image: url(Images/first_img.jpg);
+  height: 500px;
+  background-position: center;
+}
+
+/* menue design */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+li > a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* hero section design */
+
+#hero-section {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 150px;
+}
+#hero-section-heading {
+  font-size: 50px;
+}
+#hero-section-description {
+  font-size: 20px;
+  transform: translate(-70px);
+}
+#hero-section-btn {
+  font-size: 25px;
+  background-color: rgb(43, 100, 224);
+  border: none;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  transform: translate(-45px);
+  position: relative;
+  top: 110px;
+}
+#hero-section-btn:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+/* about us design */
+
+#about-us {
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+}
+
+.container {
+  /* margin-top: 100px; */
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  /* grid-gap: 50px; */
+  justify-content: space-evenly;
+}
+/* img {
+  position: relative;
+  top: 20;
+} */
+.card {
+  border: 0px 1px 1px 1px solid rgb(212, 207, 207);
+  text-align: center;
+}
+.title {
+  padding: 20px 20px 5px 20px;
+}
+.description {
+  padding: 5px 20px 20px 20px;
+}
+.cam {
+  position: relative;
+  top: 20px;
+  /* left: 200px; */
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(152, 152, 255);
+  color: white;
+}
+
+#features {
+  text-align: center;
+  margin: 30px;
+}
+#left {
+  width: 40%;
+  float: left;
+}
+#img4 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 145px;
+  left: 160px;
+}
+#img5 {
+  width: 300px;
+  height: 230px;
+  position: relative;
+  top: -150px;
+  z-index: -1;
+}
+#feature-heading {
+  font-size: 30px;
+  line-height: 2rem;
+  margin-top: 90px;
+}
+#feature-description {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+#features-btn {
+  font-size: 20px;
+  border: 1px solid rgb(152, 152, 255);
+  color: rgb(152, 152, 255);
+  background-color: white;
+  padding: 5px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#clear {
+  clear: both;
+}
+/* camera section design */
+#camera-section {
+  margin: 40px;
+}
+#left1 {
+  width: 70%;
+  float: left;
+}
+
+#camera-heading {
+  font-size: 30px;
+  line-height: 2rem;
+  margin-top: 90px;
+}
+#camera-description {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+#camera-btn {
+  font-size: 20px;
+  border: 1px solid rgb(152, 152, 255);
+  color: rgb(152, 152, 255);
+  background-color: white;
+  padding: 5px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.container1 {
+  /* margin-top: 100px; */
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  /* grid-gap: 50px; */
+  justify-content: space-evenly;
+}
+/* img {
+  position: relative;
+  top: 20;
+} */
+.proj {
+  border: 0px 1px 1px 1px solid rgb(212, 207, 207);
+  text-align: center;
+}
+.title {
+  padding: 20px 20px 5px 20px;
+}
+.description {
+  padding: 5px 20px 20px 20px;
+}
+/* testimonial */
+#testimonial {
+  text-align: center;
+  margin: 100px;
+  padding: 20px;
+}
+.row {
+  background-color: black;
+  color: white;
+}
+
+/* footer */
+/* Create four equal columns that floats next to each other */
+.column {
+  margin: 10px;
+  float: left;
+  width: 22%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
